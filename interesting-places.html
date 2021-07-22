@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Interesting Places</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="interesting-places.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">INTERESTING PLACES</a>
+    <a href="best-hotel.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BEST HOTEL</a>
+    <a href="about-us.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
+    <a href="contact-us.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT US</a>
+    <a href="our-team.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">OUR TEAM</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">HOME</a>
+  <a href="interesting-places.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">INTERESTING PLACES</a>
+  <a href="best-hotel.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BEST HOTEL</a>
+  <a href="about-us.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT US</a>
+  <a href="contact-us.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT US</a>
+  <a href="our-team.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">OUR TEAM</a>
+</div>
+
+<div class="w3-container">
+  <h1><b>INTERESTING PLACE</b></h1>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+ <!-- Biodata -->
+  <div class="w3-container" id="Pahang" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-black"><b>Pahang.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <img src="images/genting.jpeg" align="center" style="width:100%" onclick="onClick(this)" alt="One of the theme park in Genting">
+    <p>One of The Theme Park in Genting</p>
+    <p>Genting SkyWorlds is a movie inspired theme park project at Resorts World Genting, Genting Highlands, Malaysia. The theme park will open in the second quarter of 2021. Formerly called 20th Century Fox World, the park was renamed after reaching a settlement with 21st Century Fox and The Walt Disney Company
+
+    </p>
+
+     <div class="w3-container" id="Penang" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-black"><b>Penang.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <img src="images/penang.jpeg" align="center" style="width:100%" onclick="onClick(this)" alt="One of the theme park in Genting">
+    <p>Bukit Bendera - Flag Hill</p>
+    <p>Penang Hill is a hill resort comprising a group of peaks on Penang Island, Malaysia. It is located within the Air Itam suburb, 9 km west of the center of George Town. Penang Hill is also known by the Malay name Bukit Bendera, which actually refers to Flagstaff Hill, the most developed peak
+    </p>
+
+    <div class="w3-container" id="Melaka" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-black"><b>Melaka.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <img src="images/melaka.jpeg" align="center" style="width:100%" onclick="onClick(this)" alt="Historical Building">
+    <p>Historical Building</p>
+    <p>A Famosa is a former Portuguese fortress built in Malacca, Malaysia, in 1512. The oldest part of the fortress was a keep. Some time following the Battle of Malacca and the occupation of the city by the Dutch, the keep was destroyed but the outer walls of the fortress were reinforced
+    </p>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
